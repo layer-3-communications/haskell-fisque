@@ -1,0 +1,16 @@
+packages: .
+
+source-repository-package
+  type: git
+  location: https://github.com/byteverse/bytebuild
+  tag: d39c76a65aea93360253c0bfe1b6f1551622b116
+
+source-repository-package
+  type: git
+  location: https://github.com/andrewthad/posix-api
+  tag: 2215e3cc461cc6cb1588929cad7fb81d45603c44
+
+source-repository-package
+  type: git
+  location: https://github.com/byteverse/byteslice
+  tag: bf7931873db115a49bf16eacc4139d92ca32f103

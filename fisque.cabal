@@ -1,0 +1,31 @@
+cabal-version: 2.4
+name: fisque
+version: 0.1.0.0
+-- synopsis:
+-- description:
+-- bug-reports:
+-- license:
+license-file: LICENSE
+author: Andrew Martin
+maintainer: andrew.thaddeus@gmail.com
+copyright: 2020 Andrew Martin
+category: Data
+build-type: Simple
+extra-source-files: CHANGELOG.md
+
+library
+  exposed-modules: Fisque.Producer
+  build-depends:
+    , directory
+    , primitive
+    , primitive-unlifted
+    , run-st
+    , bytebuild
+    , base >=4.12 && <4.15
+    , posix-api
+    , byteslice
+    , natural-arithmetic
+    , error-codes
+    , transformers
+  hs-source-dirs: src
+  default-language: Haskell2010
